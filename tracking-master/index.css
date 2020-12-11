@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root {
+    --red: hsl(0, 100%, 68%);
+    --verydarkblue: hsl(230, 29%, 20%);
+    --darkgrayishblue: hsl(230, 11%, 40%);
+    --grayishblue: hsl(231, 7%, 65%);
+    --lightgrayishblue: hsl(207, 33%, 95%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+button {
+    border: transparent;
+    background-color: transparent;
+    font-size: 18px;
+    color: var(--grayishblue);
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight: 700;
+}
+
+.left, .right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left {
+    margin-left: 170px;
+}
+
+button, a, h1 {
+    text-transform: uppercase;
+} 
+
+a:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.new {
+    width: 65px;
+    height: 33px;
+    background-color: var(--verydarkblue);
+    color: white;
+    border-radius: 100px;
+}
+
+.logo {
+    margin-bottom: 100px;
+    margin-top: 80px;
+    width: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.background {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 35px;
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--lightgrayishblue);
+}
+
+.imgb {
+    position: absolute;
+    top: 170px;
+    right: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 70vh;
+    background-image: url(images/illustration-devices.svg);
+    background-repeat: no-repeat;
+    background-position-y:center ;
+}
+
+.menu1, .menu2, .menu3, .login {
+    margin-top: 80px;
+    margin-left: 60px;
+    color: var(--verydarkblue);
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif; 
+    font-weight: 700;
+}
+
+.menu {
+    margin-top: 80px;
+}
+
+.login {
+    display: list-item;  
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: var(--verydarkblue);
+}
+
+p {
+    margin-top: 30px ;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: var(--verydarkblue);
+    font-family: 'Barlow', sans-serif;
+}
+
+.demo {
+    height: 50px;
+    width: 200px;
+    background-color: var(--red);
+    border-radius: 8px;
+    color: white;
+}
+
+.demo:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.graish {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--grayishblue);
+}
+
+.div {
+    margin-bottom: 20px;
+}
+
+.new-2, .preview {
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.phone {
+   
+    bottom: center;
+}
+
+.preview {
+    font-family: 'Barlow', sans-serif;
+}
+/*
+preview-in, new-in yazimina diqqet yetir
+menudaki aradaki bosluqlari duzelt
+butonlarin aktiv veziyyetini transparan et
+.new-2 lere diqqet
+scroal?
+fso :)
+*/
